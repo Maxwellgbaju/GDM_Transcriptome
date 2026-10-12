@@ -1,0 +1,1 @@
+Raw-data processing scripts (SRA->FASTQ, FastQC, Trimmomatic, HISAT2, SAM->BAM, Picard) are provided in GDM_Pipeline_Scripts/01-06 (separate deposit). Scripts in this project's HISAT2_86_90/900_910/91_99 subfolders are per-sample duplicates of the same six steps and are not re-deposited here.
