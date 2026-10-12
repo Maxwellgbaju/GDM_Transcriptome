@@ -45,8 +45,8 @@ library(pathview)        # NEW: For detailed KEGG pathway visualization
 # --- 1. CONFIGURATION AND FILE LOADING ---
 
 # Define the base directory where the input files are located
-# UPDATED PATH: Changed from /shared/rc/malariarna/ECFC/gene_count to /home/msabms/Pregnancy_Project/gene_count
-base_dir <- "/home/msabms/Pregnancy_Project/gene_count"
+# UPDATED PATH: Changed from /shared/rc/malariarna/ECFC/gene_count to <YOUR_HOME_DIRECTORY>/Pregnancy_Project/gene_count
+base_dir <- "<YOUR_HOME_DIRECTORY>/Pregnancy_Project/gene_count"
 
 # Define file paths using the full path to load the data
 count_file <- file.path(base_dir, "all_groups_unified_counts.tsv")
